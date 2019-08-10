@@ -1,0 +1,225 @@
+.audifonos {
+  width: 569px;
+  height: 569px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.Sony {
+  width: 51px;
+  height: 22px;
+  opacity: 0.4;
+  font-family: "Lato-Black";
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.Audfonos-con-noise {
+  text-transform: uppercase;
+  width: 428px;
+  height: 72px;
+  font-family: "Lato-Light";
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.price {
+  width: 155px;
+  height: 44px;
+  font-family: "Lato-Black";
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7dce94;
+}
+
+.Descripcion {
+  margin-top: 45px;
+  margin-right: 82px;
+  width: 118px;
+  height: 27px;
+  font-family: "Lato-Bold";
+  font-size: 22px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.Especificaciones {
+  margin-top: 45px;
+  width: 155px;
+  height: 27px;
+  font-family: "Lato-Light";
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.txtDescripcion {
+  margin-top: 47px;
+  width: 580px;
+  height: 112px;
+  font-family: "Source-Regular";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.Incluido {
+  width: 155px;
+  height: 29px;
+  font-family: "Lato-Bold";
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.Apple {
+  width: 27px;
+  height: 29px;
+  object-fit: contain;
+  transform: rotate(-90deg);
+}
+
+.Cable-USB {
+  text-align: left;
+  width: 79px;
+  height: 23px;
+  font-family: "Source-Regular";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.icon-audifonos {
+  width: 28px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.txt-audifonos {
+  text-align: left;
+  width: 77px;
+  height: 23px;
+  font-family: "Source-Regular";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.btn-comprar {
+  margin-top: 45px;
+  width: 203px;
+  height: 52px;
+  border-radius: 26px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  background-color: #7dce94;
+  font-family: "Lato-Bold";
+  font-size: 22px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.no-sound {
+  width: 36px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.wave-sound {
+  width: 38px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.icon-bluethoot {
+  width: 20px;
+  height: 25.7px;
+  object-fit: contain;
+}
+
+.icon-battery {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  transform: rotate(-46deg);
+}
+
+.txtEspecification {
+  width: 473px;
+  height: 44px;
+  font-family: "Source-Regular";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3f;
+}
+
+.btn-audf-negro {
+  background-image: url(../resources/photos/AudSony_black_4.png);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 33px;
+  height: 33px;
+  z-index: 3;
+  -webkit-transform: translate(100px, -190px);
+  position: absolute;
+}
+
+.btn-audf-blanco {
+  background-image: url(../resources/photos/AudSony_gray_4.png);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 33px;
+  height: 33px;
+  z-index: 3;
+  -webkit-transform: translate(100px, -240px);
+  position: absolute;
+}
+
+/*# sourceMappingURL=descripcion1.css.map */

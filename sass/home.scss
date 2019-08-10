@@ -1,0 +1,43 @@
+
+body{
+    background-color: #ffffff;
+    width: 95%;
+    height: 100%;
+}
+p{
+    margin-bottom: 0px;
+
+}
+button{
+    background-color: transparent;
+    border: 0px;
+}
+
+.box {
+    
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+
+    background-color:#F6F5F3;
+  
+   
+   }
+
+   .slick-prev
+   {
+    width: 50px;
+     height: 80px;
+     background-image: url(../resources/icons/Left_arrow.svg);
+     background-repeat: no-repeat;
+     -webkit-transform: translate(0px,-150px);
+
+   }
+
+   .slick-next {
+     width: 50px;
+     height: 80px;
+    background-image: url(../resources/icons/right_arrow.svg);
+    background-repeat: no-repeat;
+    -webkit-transform: translate(-620px,-110px);
+   }

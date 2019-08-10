@@ -1,0 +1,23 @@
+@mixin font($font-family, $font-file) {
+    @font-face {
+        font-family: $font-family;
+        src: url($font-file)format('truetype');
+
+        font-weight: normal;
+        font-style: normal;
+        
+    } 
+}
+
+@include font ('Source-Black', '../resources/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf');
+@include font ('Source-BlackItalic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf');
+@include font ('Source-Bold', '../resources/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+@include font ('Source-BoldItalic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf');
+@include font ('Source-ExtraLight', '../resources/fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf');
+@include font ('Source-ExtraLightItalic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf');
+@include font ('Source-Italic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf');
+@include font ('Source-Light', '../resources/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf');
+@include font ('Source-LightItalic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-LightItalic.ttf');
+@include font ('Source-Regular', '../resources/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+@include font ('Source-SemiBold', '../resources/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf');
+@include font ('Source-SemiBoldItalic', '../resources/fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf');
